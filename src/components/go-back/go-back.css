@@ -1,0 +1,38 @@
+.btn {
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 80px;
+  top: 60px;
+  background: transparent;
+  border-radius: 4px;
+  transition: ease-in-out 0.2s;
+}
+
+.btn:hover {
+  background: #FFC30F;
+}
+
+.btn::after {
+  content: "";
+  position: absolute;
+  background-color: #000000;
+  width: 16px;
+  height: 1px;
+  top: 15px;
+  left: 11px;
+  transform: rotate(-35deg);
+}
+
+.btn::before {
+  content: '';
+  width: 16px;
+  height: 1px;
+  position: absolute;
+  background-color: #000000;
+  top: 24px;
+  left: 11px;
+  transform: rotate(35deg);
+}

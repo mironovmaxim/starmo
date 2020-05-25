@@ -1,0 +1,155 @@
+.models {
+  margin: 0 auto;
+  padding: 0;
+  width: 1080px;
+  padding: 0px 60px 0px 60px;
+}
+
+.models__title {
+  margin: 0 auto;
+  margin: 16px 0px;
+  font-family: 'Open_sans-regular';
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.block {
+  background-color: #ffffff;
+  border-radius: 4px;
+  text-align: center;
+  font-family: 'Open_sans-regular';
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+.block__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.block__title {
+  margin: 10px 0px;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 5px 5px;
+}
+
+.block__item {
+  font-size: 14px;
+  line-height: 19px;
+  border-radius: 4px;
+  padding: 8px 10px;
+}
+
+.model {
+  display: grid;
+  grid-template-areas: 
+  'model__partners model__activities model__offers model__offers model__relationship model__consumers'
+  'model__partners model__resources model__offers model__offers model__channels model__consumers'
+  'model__costs model__costs model__costs model__income model__income model__income';
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 9% 9% 1fr 1fr;
+  grid-gap: 10px;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.model__partners {
+  grid-area: model__partners;
+}
+
+.model__partners .block__title {
+  background-color: #1B325F;
+  color: #ffffff;
+  border-radius: 4px;
+  margin: 10px 10px;
+}
+
+.model__activities {
+  grid-area: model__activities;
+}
+
+.model__activities .block__title {
+  background-color: #9CC4E4;
+  color: #ffffff;
+  border-radius: 4px;
+  margin: 10px 10px;
+}
+
+.model__offers {
+  grid-area: model__offers;
+}
+
+.model__offers .block__title {
+  background-color: #F26C4F;
+  color: #ffffff;
+  border-radius: 4px;
+  margin: 10px 10px;
+}
+
+.model__relationship {
+  grid-area: model__relationship;
+}
+
+.model__relationship .block__title {
+  background-color: #11644D;
+  color: #ffffff;
+  border-radius: 4px;
+  margin: 10px 10px;
+}
+
+.model__consumers {
+  grid-area: model__consumers;
+}
+
+.model__consumers .block__title {
+  background-color: rgb(173, 196, 48);
+  color: #ffffff;
+  border-radius: 4px;
+  margin: 10px 10px;
+}
+
+.model__resources {
+  grid-area: model__resources;
+}
+
+.model__resources .block__title {
+  background-color: #3A89C9;
+  color: #ffffff;
+  border-radius: 4px;
+  margin: 10px 10px;
+}
+
+.model__channels {
+  grid-area: model__channels;
+}
+
+.model__channels .block__title {
+  background-color: #F2C94E;
+  color: #ffffff;
+  border-radius: 4px;
+  margin: 10px 10px;
+}
+
+.model__costs {
+  grid-area: model__costs;
+}
+
+.model__costs .block__title {
+  background-color: #F24E4E;
+  color: #ffffff;
+  border-radius: 4px;
+  margin: 10px 10px;
+}
+
+.model__income {
+  grid-area: model__income;
+}
+
+.model__income .block__title {
+  background-color: #F78145;
+  color: #ffffff;
+  border-radius: 4px;
+  margin: 10px 10px;
+}

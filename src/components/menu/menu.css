@@ -1,0 +1,30 @@
+.menu__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.menu__item {
+  margin: 0px 25px;
+}
+
+.menu__link {
+  padding-bottom: 5px;
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.menu__link:hover {
+  border-bottom: 2px solid #FFC30F;
+}
+
+.active {
+  border-bottom: 2px solid #FFC30F;
+}
+
+.active:hover {
+  border-bottom: 2px solid #FFC30F;
+}

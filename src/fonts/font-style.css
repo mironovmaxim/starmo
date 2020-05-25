@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'Open_sans-bold';
+    src: url('opensans-bold.woff2') format('woff2'),
+         url('opensans-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open_sans-bold_italic';
+    src: url('opensans-bolditalic.woff2') format('woff2'),
+         url('opensans-bolditalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open_sans-extrabold';
+    src: url('opensans-extrabold.woff2') format('woff2'),
+         url('opensans-extrabold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open_sans-extrabold_italic';
+    src: url('opensans-extrabolditalic.woff2') format('woff2'),
+         url('opensans-extrabolditalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open_sans-italic';
+    src: url('opensans-italic.woff2') format('woff2'),
+         url('opensans-italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open_sans-light';
+    src: url('opensans-light.woff2') format('woff2'),
+         url('opensans-light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open_sans-light_italic';
+    src: url('opensans-lightitalic.woff2') format('woff2'),
+         url('opensans-lightitalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open_sans-regular';
+    src: url('opensans-regular.woff2') format('woff2'),
+         url('opensans-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open_sans-semibold';
+    src: url('opensans-semibold.woff2') format('woff2'),
+         url('opensans-semibold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open_sans-semibold_italic';
+    src: url('opensans-semibolditalic.woff2') format('woff2'),
+         url('opensans-semibolditalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

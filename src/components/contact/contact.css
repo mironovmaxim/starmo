@@ -1,0 +1,44 @@
+.contact {
+  margin: 0 auto;
+  padding: 0px 60px;
+  padding-bottom: 40px;
+  width: 1080px;
+}
+
+.contact__title {
+  margin: 16px 0px;
+  font-family: 'Open_sans-regular';
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.contact__text {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 32px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+
+.contact__social {
+  margin-left: 100px; 
+}
+
+.contact__wrap {
+  display: flex;
+}
+
+.social__title {
+  margin: 0;
+  margin-bottom: 16px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.social__link {
+  font-size: 0px;
+}

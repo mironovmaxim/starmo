@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  background-color:#ececec;
+  color: #000000;
+  font-size: 16px;
+  font-family: 'Open_sans-light', sans-serif;
+  overflow-y: scroll;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
