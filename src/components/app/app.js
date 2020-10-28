@@ -9,8 +9,6 @@ import NotPage from '../not-page';
 import ScrollToTop from '../scroll-to-top/scroll-to-top';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
-import './app.css';
-
 
 function App() {
   return(

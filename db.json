@@ -95,5 +95,17 @@
     }
   ],
   "feedback": [
+    {
+      "name": "Vfrc",
+      "email": "fdfdf@fdgfg.ru",
+      "text": "dfsd",
+      "id": 1
+    },
+    {
+      "name": "dfgfg",
+      "email": "fdgfdg@bgfggbf.ru",
+      "text": "dfdsfsdfs",
+      "id": 2
+    }
   ]
 }

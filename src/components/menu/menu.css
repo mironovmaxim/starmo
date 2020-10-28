@@ -4,9 +4,26 @@
   list-style: none;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
 }
+
 .menu__item {
   margin: 0px 25px;
+}
+
+.menu__item .menu__link-auth {
+  background-color: #FFC30F;
+  padding: 5px 10px;
+  border-radius: 4px;
+  color: #343838;
+}
+
+.menu__link:nth-child(1) {
+  border-bottom: none;
+}
+
+.menu__link:nth-child(2) {
+  border-bottom: none;
 }
 
 .menu__link {

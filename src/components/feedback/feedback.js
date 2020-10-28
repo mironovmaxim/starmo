@@ -122,7 +122,7 @@ export default class FeedBack extends Component {
               type = 'submit'>
               Отправить
         </button>
-        <p>Все поля обяательны для заполнения</p>
+        <p>Все поля обязательны для заполнения</p>
         {modal}
         {error}
       </form>

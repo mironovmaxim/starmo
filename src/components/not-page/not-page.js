@@ -1,5 +1,4 @@
 import React from 'react';
-import './not-page.css';
 
 function NotPage() {
   return(
