@@ -12,7 +12,7 @@
 }
 
 .menu__item .menu__link-auth {
-  background-color: #f89c51;
+  background-color: #FFC30F;
   padding: 5px 10px;
   border-radius: 4px;
   color: #343838;
@@ -20,7 +20,7 @@
 
 .menu__item .menu__link-auth:hover {
   border: none;
-  background-color: #fff45b;
+  background-color: #FFC30F;
 }
 
 .menu__item .menu__link-auth.active {
