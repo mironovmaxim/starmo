@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../header';
 import Main from '../main';
+import Login from '../login';
 import About from '../about';
 import Contact from '../contact';
 import CatalogPage from '../pages';
@@ -17,7 +18,8 @@ function App() {
       <Header />
       <main>
         <Switch>
-          <Route exact path = '/' component = {Main}/>
+          <Route exact path = '/' component = {Main} />
+          <Route path = '/login' component = {Login} />
           <Route path = '/about' component = {About} />
           <Route path = '/contact' component = {Contact} />
           <Route exact path = '/catalog' component = {CatalogPage} />

@@ -12,18 +12,19 @@
 }
 
 .menu__item .menu__link-auth {
-  background-color: #FFC30F;
+  background-color: #f89c51;
   padding: 5px 10px;
   border-radius: 4px;
   color: #343838;
 }
 
-.menu__link:nth-child(1) {
-  border-bottom: none;
+.menu__item .menu__link-auth:hover {
+  border: none;
+  background-color: #fff45b;
 }
 
-.menu__link:nth-child(2) {
-  border-bottom: none;
+.menu__item .menu__link-auth.active {
+  border: none;
 }
 
 .menu__link {

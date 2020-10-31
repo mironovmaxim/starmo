@@ -1,0 +1,54 @@
+.login {
+	margin: 0 auto;
+	padding: 0 60px;
+	width: 1080px;
+	display: flex;
+	justify-content: center;
+}
+
+.auth {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.auth input {
+  border: none;
+  border-radius: 4px;
+  height: 40px;
+  padding-left: 15px;
+  margin-bottom: 20px;
+  font-family: 'Open_sans-light', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  color: #9D9D9D;
+}
+
+.auth button {
+  margin-left: 125px;
+  width: 151px;
+  height: 41px;
+  color: #000000;
+  background-color: #FFC30F;
+  border: none;
+  border-radius: 4px;
+  font-family: 'Open_sans-light', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+  cursor: pointer;
+  transition: ease-in-out 0.2s;
+}
+.auth button:hover {
+  opacity: 0.7;
+  transition: ease-in-out 0.2s;
+}
+
+.auth__title {
+	margin: 16px 0px;
+  font-family: 'Open_sans-regular';
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 27px;
+}
