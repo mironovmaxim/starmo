@@ -7,6 +7,7 @@ import Contact from '../contact';
 import CatalogPage from '../pages';
 import CardItem from '../card-item';
 import NotPage from '../not-page';
+import Register from '../register';
 import ScrollToTop from '../scroll-to-top/scroll-to-top';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
@@ -20,6 +21,7 @@ function App() {
         <Switch>
           <Route exact path = '/' component = {Main} />
           <Route path = '/login' component = {Login} />
+          <Route path = '/register' component = {Register} />
           <Route path = '/about' component = {About} />
           <Route path = '/contact' component = {Contact} />
           <Route exact path = '/catalog' component = {CatalogPage} />

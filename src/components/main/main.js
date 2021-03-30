@@ -59,7 +59,8 @@ function Main() {
         <div className = 'motive__wrap'>
           <h2 className = 'motive__title'>Начните прямо сейчас</h2>
           <p className = 'motive__text'>Заполните модель на основе своей идеи и увеличьте Ваши шансы на успех</p>
-          <Link to = '/about' className = 'motive__link'>Как заполнять модель</Link>
+          <Link to = '/register' className = 'motive__link'>Регистрация</Link>
+          <Link to = '/about' className = 'motive__about'>Как заполнять модель</Link>
         </div>
       </section>
     </div>
